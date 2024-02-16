@@ -319,6 +319,13 @@ a:link {
   }
 }
 
+@media screen and (max-width: 1158px) {
+  .about-kennels-title {
+    max-width: 450px;
+    margin-top: 0;
+  }
+}
+
 .about-kennels-paragraph {
   margin-bottom: 10px;
   max-width: 500px;
