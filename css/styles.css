@@ -453,6 +453,8 @@ a:link {
   .footer-style-box {
     align-items: baseline;
     gap: 0;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
