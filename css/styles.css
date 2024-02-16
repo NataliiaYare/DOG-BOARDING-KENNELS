@@ -241,7 +241,6 @@ a:link {
 /* ========================== Hero ======================== */
 
 .hero {
-  max-width: 1440px;
   height: 600px;
   /* background-image: url(../images/bg_1.png); */
 }
@@ -308,6 +307,9 @@ a:link {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 26px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  max-width: 550px;
 }
 
 @media screen and (max-width: 768px) {
@@ -322,7 +324,8 @@ a:link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -333,7 +336,7 @@ a:link {
 }
 
 .about-kennels {
-  padding: 100px 0;
+  padding: 36px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -342,6 +345,7 @@ a:link {
 
 @media screen and (min-width: 1158px) {
   .about-kennels {
+    padding: 100px 0;
     flex-direction: row;
     gap: 60px;
   }
@@ -350,12 +354,12 @@ a:link {
 .dog-img {
   width: 100%;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 36px;
 }
 
 @media screen and (min-width: 1158px) {
   .dog-img {
-    width: 5500px;
+    width: 550px;
     margin-top: 0;
   }
 }
@@ -367,9 +371,11 @@ a:link {
   font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 56px;
   padding: 0 16px;
   text-align: center;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 
 .gallery {
@@ -391,6 +397,13 @@ a:link {
   background-repeat: no-repeat;
   filter: drop-shadow();
   transition-duration: 1s;
+}
+
+@media screen and (min-width: 1158px) {
+  .gallery > img {
+    width: calc(90% / 3);
+    height: 350px;
+  }
 }
 
 .gallery > img:hover {
