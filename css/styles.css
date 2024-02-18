@@ -92,6 +92,7 @@ a:link {
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -102,7 +103,7 @@ a:link {
 @media screen and (min-width: 1158px) {
   .background {
     background-image: url(../images/bg_1.png);
-    height: 900px;
+    height: 800px;
   }
 }
 
@@ -557,7 +558,7 @@ a:link {
 .cta-footer-input {
   border: 1px solid #ffffff;
   background-color: transparent;
-  max-width: 264px;
+  width: 146px;
   height: 40px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -599,7 +600,7 @@ a:link {
 }
 
 .sub-button {
-  max-width: 264px;
+  width: 164px;
   height: 40px;
   display: flex;
   justify-content: center;
